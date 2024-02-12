@@ -1528,7 +1528,7 @@ var lms = {
 };
 
 lms.xyz = function(arg, matrix){
-	var l = arg[0], m = arg[1], s = arg[2];
+	var l = arg[2], m = arg[1], s = arg[0];
 
 	if (!matrix) {
 		matrix = [
@@ -1546,7 +1546,7 @@ lms.xyz = function(arg, matrix){
 };
 
 xyz.lms = function(arg, matrix) {
-		var x = arg[0], y = arg[1], z = arg[2];
+		var x = arg[2], y = arg[1], z = arg[0];
 
 		if (!matrix) {
 			matrix = lms.matrix.CAT02;
