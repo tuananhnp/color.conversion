@@ -1492,10 +1492,10 @@ xyz.labh = function(xyz){
  */
 
 var lms = {
-	name: 'lms',
+	name: 'LMS',
 	min: [0,0,0],
 	max: [100,100,100],
-	channel: ['long', 'medium', 'short'],
+	channel: ['Long', 'Medium', 'Short'],
 
 
 	//transform matrices
